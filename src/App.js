@@ -37,7 +37,7 @@ function App() {
     // console.log(cls)
     document.body.classList.add('bg-'+cls)
     if(mode==='light'){
-      setMode('#333333');
+      setMode('dark');
       document.body.style.backgroundColor='black';
       showAlert("Dark mode has been enabled!","success")
       document.title='TextUtils - Dark Mode';
